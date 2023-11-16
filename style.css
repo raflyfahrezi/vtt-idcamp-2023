@@ -1,0 +1,7 @@
+p {
+  font-weight: bold;
+  font-size: 32px;
+
+  /* Color */
+  color: rgba(0, 100, 100, 1);
+}
