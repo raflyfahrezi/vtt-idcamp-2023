@@ -1,0 +1,31 @@
+.absolute-wrapper-card {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.absolute-card-1 {
+  width: 100%;
+  height: 100px;
+
+  background-color: red;
+}
+
+.absolute-card-2 {
+  width: 100%;
+  height: 100px;
+
+  position: absolute;
+  top: -20px;
+
+  background-color: rebeccapurple;
+}
+
+.absolute-card-3 {
+  width: 100%;
+  height: 100px;
+
+  background-color: green;
+}
