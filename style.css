@@ -10,8 +10,6 @@
   height: 500px;
 
   /* Padding & Margin */
-  padding: 20px;
-  margin: 20px;
 
   background-color: brown;
 }
@@ -21,7 +19,6 @@
   height: 100%;
 
   /* Padding  */
-  padding: 20px;
 
   background-color: blueviolet;
 }
