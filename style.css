@@ -1,0 +1,41 @@
+/* Basic Selector */
+p {
+  color: red;
+  font-weight: bold;
+}
+
+/* Attribute Selector */
+input[type='text'] {
+  border: 2px solid red;
+}
+
+/* Grouping Selector */
+h1,
+h2,
+h3 {
+  color: blue;
+}
+
+/* Combinator Selector */
+
+div > p {
+  color: green;
+}
+
+div > span p {
+  color: aqua;
+}
+
+ol > li {
+  font-weight: bold;
+  color: brown;
+}
+
+/* Pseudo Selector */
+button:hover {
+  background-color: red;
+}
+
+button:active {
+  background-color: green;
+}
