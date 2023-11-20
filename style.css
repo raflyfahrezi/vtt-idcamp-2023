@@ -1,7 +1,5 @@
 .card {
-  width: 100%;
-  height: 300px;
-  max-width: 300px;
+  /* Element Dimension */
 
   background-color: red;
 }
