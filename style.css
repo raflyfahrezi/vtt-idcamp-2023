@@ -11,18 +11,17 @@ body {
 }
 
 .aside {
-  width: 20%;
-  height: 100%;
+  /* Width & Height */
 
-  background-color: green;
-  float: left;
+  /* Background Color */
+
+  /* Float */
 }
 
 .content {
-  width: 80%;
-  height: 100%;
+  /* Width & Height */
 
-  background-color: blueviolet;
+  /* Background Color */
 
-  float: right;
+  /* Float */
 }
