@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.kotak1 {
+  width: 500px;
+  height: 500px;
+
+  /* Padding & Margin */
+  padding: 20px;
+  margin: 20px;
+
+  background-color: brown;
+}
+
+.kotak2 {
+  width: 100%;
+  height: 100%;
+
+  /* Padding  */
+  padding: 20px;
+
+  background-color: blueviolet;
+}
+
+.konten {
+  background-color: yellow;
+}
