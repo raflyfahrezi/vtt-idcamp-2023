@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.div-1 {
+  width: 100%;
+  height: 300px;
+
+  background-color: rebeccapurple;
+}
+
+.div-2 {
+  width: 100%;
+  height: 300px;
+
+  background-color: tomato;
+}
+
+.div-3 {
+  width: 100%;
+  height: 300px;
+
+  background-color: teal;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .div-1 {
+    background-color: black;
+  }
+}
