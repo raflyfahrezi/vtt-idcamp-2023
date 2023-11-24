@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+  justify-content: end;
+
+  background-color: gray;
+}
+
+.div-1 {
+  width: 100px;
+  height: 100px;
+
+  flex: 1;
+
+  background-color: red;
+}
+
+.div-2 {
+  width: 100px;
+  height: 100px;
+
+  flex: 2;
+
+  background-color: blue;
+}
+
+.div-3 {
+  width: 100px;
+  height: 100px;
+
+  flex: 3;
+
+  background-color: green;
+}
