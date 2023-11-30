@@ -1,27 +1,40 @@
-const inputComment = document.getElementById('input-comment')
+const inputName = document.getElementById('input-name')
 const buttonSend = document.getElementById('button-send')
 const showComment = document.getElementById('show-comment')
+const inputComment = document.getElementById('input-comment')
 
-const loadComponent = () => {
-  const comment = localStorage.getItem('comment')
+const loadComment = () => {
+  const personJSON = localStorage.getItem('comment')
+  const person = JSON.parse(personJSON)
 
-  if (comment) {
-    showComment.innerHTML = '<p>' + comment + '</p>'
+  if (person) {
+    showComment.innerHTML = `
+            <p><b>${person.name}</b></p>
+            <p>${person.comment}</p>
+        `
   } else {
-    showComment.innerHTML = '<p>Tidak ada komentar</p>'
+    showComment.innerHTML = '<p>There is no comment</p>'
   }
 }
 
 buttonSend.addEventListener('click', () => {
+  const inputNameValue = inputName.value
   const inputCommentValue = inputComment.value
 
-  localStorage.setItem('comment', inputCommentValue)
+  const person = {
+    name: inputNameValue,
+    comment: inputCommentValue,
+  }
+
+  const personJSON = JSON.stringify(person)
+
+  localStorage.setItem('comment', personJSON)
 
   inputComment.value = ''
 
-  loadComponent()
+  loadComment()
 })
 
 document.addEventListener('DOMContentLoaded', () => {
-  loadComponent()
+  loadComment()
 })
