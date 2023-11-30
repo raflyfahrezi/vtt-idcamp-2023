@@ -157,3 +157,35 @@
 .footer p {
   color: white;
 }
+
+.comment {
+  width: 100%;
+
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+
+  padding: 20px 40px 40px 40px;
+}
+
+.comment-input {
+  width: 100%;
+
+  display: flex;
+  gap: 20px;
+}
+
+.comment-input input {
+  width: 100%;
+
+  padding: 10px;
+
+  border: 1px solid #383d3b;
+  border-radius: 10px;
+}
+
+.comment-input button {
+  padding: 10px;
+
+  border-radius: 10px;
+}

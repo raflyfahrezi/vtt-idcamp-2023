@@ -7,7 +7,11 @@
   <body>
     <!-- Navigasi -->
     <nav class="nav">
-      <img src="" alt="logo" class="nav-logo" />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_of_Ministry_of_Education_and_Culture_of_Republic_of_Indonesia.svg/2048px-Logo_of_Ministry_of_Education_and_Culture_of_Republic_of_Indonesia.svg.png"
+        alt="logo"
+        class="nav-logo"
+      />
       <div class="nav-link">
         <a href="">Home</a>
         <a href="">About</a>
@@ -16,7 +20,7 @@
 
     <!-- Header -->
     <header class="header">
-      <h1>Selamat Datang</h1>
+      <h1 id="header-title">Selamat Datang</h1>
     </header>
 
     <!-- Main -->
@@ -40,7 +44,7 @@
           </p>
         </section>
         <section class="section">
-          <h2>Sejarah</h2>
+          <h2>Penerimaan Siswa Baru</h2>
           <hr />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ut
@@ -57,7 +61,7 @@
           </p>
         </section>
         <section class="section">
-          <h2>Sejarah</h2>
+          <h2>Berita</h2>
           <hr />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ut
@@ -77,7 +81,10 @@
 
       <div>
         <aside class="aside">
-          <img src="" alt="foto Penulis" />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/3177/3177440.png"
+            alt="foto Penulis"
+          />
           <h2>Tentang Penulis</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam eos
@@ -88,8 +95,25 @@
       </div>
     </main>
 
+    <!-- Comment -->
+    <section class="comment">
+      <h2>Komentar</h2>
+
+      <!-- Input Pengguna -->
+      <div class="comment-input">
+        <input id="input-comment" type="text" />
+        <button id="button-send">Kirim</button>
+      </div>
+
+      <div id="show-comment" class="show-comment">
+        <!--  -->
+      </div>
+    </section>
+
+    <!-- Footerr -->
     <footer class="footer">
       <p>&copy; 2021 - Web Sekolah</p>
     </footer>
   </body>
+  <script src="./script.js"></script>
 </html>
